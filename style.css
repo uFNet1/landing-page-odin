@@ -80,3 +80,36 @@
 .sign-button:active {
   background-color: #3b82f6;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  text-align: center;
+  padding-block: 40px;
+  gap: 32px;
+}
+
+.block-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  border: 5px solid #3b82f6;
+}
+
+.block-text {
+  color: rgb(87, 87, 87);
+}
+
+.info-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-inline: 42px;
+}
+
+.info-blocks .block {
+  width: 150px;
+}
