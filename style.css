@@ -13,6 +13,7 @@
 .secondary-text,
 .links {
   color: rgb(194, 194, 194);
+  font-size: 14px;
 
 }
 
@@ -135,4 +136,19 @@
 
 .quote-author {
   text-align: end;
+}
+
+.ad-block {
+  margin-inline: 120px;
+  margin-block: 50px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 60px;
+}
+
+.ad-block button {
+  border: 1px solid white;
 }
