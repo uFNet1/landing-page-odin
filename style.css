@@ -4,6 +4,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 .main-text {
   color: white;
 }
@@ -87,6 +89,7 @@
 }
 
 .information {
+  padding-inline: 120px;
   text-align: center;
   padding-block: 40px;
   gap: 32px;
@@ -106,10 +109,30 @@
 .info-blocks {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding-inline: 42px;
+  justify-content: space-between;
+  /* padding-inline: 42px; */
 }
 
 .info-blocks .block {
   width: 150px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(206, 206, 206);
+  /* padding-inline: 120px; */
+  padding-inline: 180px;
+  padding-block: 50px;
+  gap: 14px;
+
+}
+
+.quote-text {
+  font-size: 28px;
+  color: rgb(80, 80, 80);
+}
+
+.quote-author {
+  text-align: end;
 }
