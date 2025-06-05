@@ -152,3 +152,9 @@
 .ad-block button {
   border: 1px solid white;
 }
+
+.footer {
+  padding-block: 24px;
+  background-color: #1f2937;
+  text-align: center;
+}
